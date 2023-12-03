@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    border-bottom: 8px solid hsl(0deg 0% 40%);
+}
+
+.max-width-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.intro-chunk {
+    padding: 96px 0 48px;
+    max-width: 400px;
+}
+
+.intro-chunk .title {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 48px;
+}
+
+.intro-chunk p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+.intro-chunk strong {
+    color: hsl(160deg 100% 30%);
+}
+
+main {
+    background-color: hsl(0deg 0% 60%);
+    padding: 96px 0;
+}
+
+.card {
+    background-color: hsl(0deg 0% 100%);
+    padding: 24px;
+    margin: -24px;
+    border-bottom: 8px solid hsl(0deg 0% 40%);
+}
+
+.indented-heading {
+    background: hsl(45deg 100% 50%);
+    margin-left: -32px;
+    margin-top: -16px;
+    padding: 16px 32px;
+    width: fit-content;
+    font-weight: 900;
+    border-bottom: 8px solid hsl(45deg 100% 40%);
+}
+
+.card p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
